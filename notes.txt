@@ -1,0 +1,12 @@
+to use the functions within this project, you would start by running the create_tables_from_csv.py file from the command line
+    this will first process the schema csv file and parse it out for use in creating the necessary tables for the database.
+    you can look inside the db_connection.py file for the specific db information.
+    note: i fixed the CUSTOM_FIELDS.csv file 'by hand' because i couldn't get my 'csv fixer' functionality to work properly.
+
+you can then run the data_insertion.py file to insert any necessary data into the previously created tables.
+
+once the data is inserted into the db tables, you can run the overdrawn_balances.py file. there are no command line arguments for this function.
+
+although i did not complete the project, i had a lot of fun working on this!
+thank you so much for this opportunity
+i look forward to hearing from you soon
